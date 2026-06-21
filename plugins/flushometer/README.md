@@ -1,5 +1,7 @@
 # 🚽 flushometer (Claude Code plugin)
 
+### *You waste thousands of tokens a day — now you can watch them swirl down the drain.*
+
 Translate **token usage** into real-world equivalents — **toilet flushes, EV distance, gas-car distance** — as an **animated statusline** and an on-demand `/flushometer:flush` report.
 
 ```

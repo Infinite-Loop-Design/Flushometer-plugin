@@ -1,7 +1,7 @@
 {
   "name": "flushometer",
   "displayName": "Flushometer",
-  "description": "Translate token usage into toilet flushes, EV distance, and gas-car distance, with an animated statusline meter.",
+  "description": "You waste thousands of tokens a day — now you can watch them swirl down the drain. Token usage as toilet flushes, EV distance, and gas-car distance, with an animated statusline meter.",
   "version": "1.0.0",
   "author": { "name": "InfiniteLoopDesign" },
   "keywords": ["statusline", "tokens", "usage", "sustainability", "fun"]

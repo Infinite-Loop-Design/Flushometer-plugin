@@ -1,12 +1,14 @@
 # 🚽 flushometer — Claude Code plugin marketplace
 
+### *You waste thousands of tokens a day — now you can watch them swirl down the drain.*
+
 This repo is a [Claude Code](https://claude.com/claude-code) **plugin marketplace** containing one plugin: **flushometer**, which shows your token usage as toilet flushes, EV distance, and gas-car distance — with an animated statusline.
 
 ## Install
 
 ```bash
-# 1. Add this marketplace (replace with your GitHub owner/repo once pushed)
-/plugin marketplace add <owner>/flushometer-plugin
+# 1. Add this marketplace
+/plugin marketplace add Infinite-Loop-Design/flushometer-plugin
 
 # 2. Install the plugin
 /plugin install flushometer@flushometer
@@ -45,9 +47,6 @@ flushometer-plugin/
 ```
 
 ## Sharing it
-1. Create an empty GitHub repo (e.g. `flushometer-plugin`).
-2. Push this folder to it.
-3. Fill in the `owner` fields in `.claude-plugin/marketplace.json` and `plugins/flushometer/.claude-plugin/plugin.json`.
-4. Others install with the two `/plugin` commands above, pointing at `<your-owner>/flushometer-plugin`.
+Hosted at **https://github.com/Infinite-Loop-Design/flushometer-plugin** — others install with the two `/plugin` commands above. To fork your own copy, push this folder to a new repo and update the `owner`/`source` fields if your path differs.
 
 MIT licensed.

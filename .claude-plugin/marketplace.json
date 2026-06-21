@@ -1,7 +1,7 @@
 {
   "name": "flushometer",
   "owner": { "name": "InfiniteLoopDesign" },
-  "description": "Token-usage meter for Claude Code: see your usage as toilet flushes, EV distance, and gas-car distance, with an animated statusline.",
+  "description": "You waste thousands of tokens a day — now you can watch them swirl down the drain. Token usage as toilet flushes, EV distance, and gas-car distance, with an animated statusline.",
   "plugins": [
     {
       "name": "flushometer",

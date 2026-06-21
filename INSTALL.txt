@@ -1,0 +1,45 @@
+🚽 flushometer — install (no GitHub / no git needed)
+=====================================================
+
+Requirements: Claude Code + Node.js 18 or newer.
+
+1. Unzip this folder anywhere you like, e.g.  C:\tools\flushometer-plugin
+   (note the full path to that folder — you'll paste it in step 2).
+
+2. In Claude Code, add this folder as a local plugin marketplace:
+
+     /plugin marketplace add <full-path-to-the-unzipped-flushometer-plugin-folder>
+
+   Example (Windows):  /plugin marketplace add C:/tools/flushometer-plugin
+   Example (mac/Linux): /plugin marketplace add ~/tools/flushometer-plugin
+   (forward slashes work on every OS)
+
+3. Install the plugin:
+
+     /plugin install flushometer@flushometer
+
+4. Turn on the animated statusline (plugins can't set it directly, so this
+   wires it into your ~/.claude/settings.json for you):
+
+     /flushometer:setup
+
+   …then RESTART Claude Code. The meter appears at the bottom.
+
+5. Try the report command:
+
+     /flushometer:flush 175000
+
+
+Uninstall
+---------
+  /plugin uninstall flushometer
+  node "<this-folder>/plugins/flushometer/flushometer.js" setup --uninstall
+  (the second line removes the statusline from settings.json)
+
+
+What it does
+------------
+Shows your token usage as toilet flushes, EV miles, and gas-car miles — an
+animated per-session odometer in the statusline, plus an on-demand report.
+All estimates; assumptions are editable in flushometer.js (FACTORS).
+MIT licensed.
