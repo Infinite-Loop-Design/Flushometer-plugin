@@ -20,7 +20,7 @@ This repo is a [Claude Code](https://claude.com/claude-code) **plugin marketplac
 
 Try it locally before pushing anywhere:
 ```bash
-/plugin marketplace add C:/Users/Caleb/Desktop/WhiteScrape/flushometer-plugin
+/plugin marketplace add C:/Users/USER/Downloads/flushometer-plugin
 /plugin install flushometer@flushometer
 ```
 
