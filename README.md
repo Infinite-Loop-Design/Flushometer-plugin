@@ -16,13 +16,7 @@ This repo is a [Claude Code](https://claude.com/claude-code) **plugin marketplac
 # 3. Turn on the animated statusline (plugins can't set it directly)
 /flushometer:setup
 #    …then restart Claude Code.
-```
 
-Try it locally before pushing anywhere:
-```bash
-/plugin marketplace add C:/Users/USER/Downloads/flushometer-plugin
-/plugin install flushometer@flushometer
-```
 
 ## Use
 - `/flushometer:flush 175000` — report for a token count
