@@ -8,7 +8,7 @@ This repo is a [Claude Code](https://claude.com/claude-code) **plugin marketplac
 
 ```bash
 # 1. Add this marketplace
-/plugin marketplace add Infinite-Loop-Design/flushometer-plugin
+/plugin marketplace add Infinite-Loop-Design/Flushometer-plugin
 
 # 2. Install the plugin
 /plugin install flushometer@flushometer
@@ -47,6 +47,6 @@ flushometer-plugin/
 ```
 
 ## Sharing it
-Hosted at **https://github.com/Infinite-Loop-Design/flushometer-plugin** — others install with the two `/plugin` commands above. To fork your own copy, push this folder to a new repo and update the `owner`/`source` fields if your path differs.
+Hosted at **https://github.com/Infinite-Loop-Design/Flushometer-plugin** — others install with the two `/plugin` commands above. To fork your own copy, push this folder to a new repo and update the `owner`/`source` fields if your path differs.
 
 MIT licensed.
