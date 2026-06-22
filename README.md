@@ -40,7 +40,4 @@ flushometer-plugin/
         └── LICENSE
 ```
 
-## Sharing it
-Hosted at **https://github.com/Infinite-Loop-Design/Flushometer-plugin** — others install with the two `/plugin` commands above. To fork your own copy, push this folder to a new repo and update the `owner`/`source` fields if your path differs.
 
-MIT licensed.
